@@ -1,0 +1,69 @@
+html {
+    background: url('images/bitcoin.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000000af;
+    color: rgb(248, 245, 245);
+    padding: 2em;
+    border-radius: 30px;
+    margin: 2em;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 0.5em auto;
+    background: #7c7c7c2b;
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    border-color: rgb(247, 250, 248);
+}
+
+button:hover {
+    background: #44d817de;
+}
+
+input {
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+#amount {
+    text-align: center;
+}
+
+.green,
+.p-volumeEuros,
+.p-downwardCount {
+    color: chartreuse;
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    input {
+        display: inline;
+    }
+    .btn {
+        display: inline;
+    }
+    .card {
+        width: 700px;
+        margin-top: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
